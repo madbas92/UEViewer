@@ -11,3 +11,4 @@ done
 
 rm -f $archive
 tar -cf - $filelist | gzip -f9 > $archive
+UnrealPak.exe "./pfile.pak" -extract "./"
